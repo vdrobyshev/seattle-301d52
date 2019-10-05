@@ -1,0 +1,30 @@
+@media (min-width: 701px){
+  div, header, footer{
+    background-color: #dedede;
+  }
+
+  body{
+    width: 960px;
+    margin: auto;
+  }
+
+  #left {
+    width: 200px;
+    float: left;
+    height: 500px;
+  }
+
+  #right {
+    width: 200px;
+    float: right;
+    height: 500px;
+  }
+
+  #main {
+    height: 500px;
+  }
+
+  footer {
+    clear: both;
+  }
+}

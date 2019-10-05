@@ -1,0 +1,26 @@
+/* positions, structure, width, height*/
+
+body {
+  width: 450px;
+  margin: auto;
+}
+
+div {
+  border: 2px solid black;
+  height: 200px;
+  margin-top: 10px;
+  width: 358px;
+}
+
+@media only screen and (min-width: 451px){
+  body {
+    width: 100%;
+  }
+  
+  div {
+    width: 400px;
+    float: left;
+    background-color: pink;
+  }
+}
+
